@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:untitled7/core/theming/colors.dart';
 
 abstract class TextStyles{
-  static   TextStyle font32BlueBold=TextStyle(
+  static   TextStyle  font32BlueBold=TextStyle(
     fontSize: 32.sp,
     fontWeight: FontWeight.bold,
     color: MyColors.mainBlue,
