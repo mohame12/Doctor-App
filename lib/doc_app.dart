@@ -28,7 +28,7 @@ class DocApp extends StatelessWidget {
       // },
       child:MaterialApp(
         title: 'Doc App',
-        initialRoute: Routes.onBoardingScreen,
+        initialRoute: Routes.splashScreen,
         theme: ThemeData(
           primaryColor:MyColors.mainBlue ,
            scaffoldBackgroundColor: Colors.white,

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:untitled7/core/routing/routes.dart';
 import 'package:untitled7/features/login/presentation/pages/login_screen.dart';
 import 'package:untitled7/features/on_boarding/presentation/pages/on_boarding_screen.dart';
+import 'package:untitled7/features/splash_screen/presentation/pages/splash_screen.dart';
 
 class AppRouters{
 
@@ -15,6 +16,9 @@ class AppRouters{
       case(Routes.loginScreen):
         return MaterialPageRoute(
           builder: (context) => const LoginScreen(),);
+      case(Routes.splashScreen):
+        return MaterialPageRoute(
+          builder: (context) => const SplashScreen(),);
       default:
         return MaterialPageRoute(builder: (context) =>
           Scaffold(
