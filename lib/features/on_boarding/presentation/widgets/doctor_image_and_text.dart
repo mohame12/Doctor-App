@@ -29,7 +29,7 @@ class DoctorImageAndText extends StatelessWidget {
             ),
           ),
            Positioned(
-             bottom: 30,
+             bottom: 22,
              left: 0,
              right: 0,
              child: Align(
