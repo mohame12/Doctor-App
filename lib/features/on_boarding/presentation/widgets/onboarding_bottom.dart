@@ -5,8 +5,9 @@ import 'package:untitled7/core/theming/colors.dart';
 import 'package:untitled7/core/theming/styling.dart';
 
 class OnboardingBottom extends StatelessWidget {
-  const OnboardingBottom({super.key});
+  const OnboardingBottom({super.key, required this.text});
 
+  final String text;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -19,7 +20,7 @@ class OnboardingBottom extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
         ),
-      child: Text('Get Started',style: TextStyles.font16White600W,),
+      child: Text(text,style: TextStyles.font16White600W,),
       ),
     );
   }

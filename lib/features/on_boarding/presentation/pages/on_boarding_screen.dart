@@ -22,7 +22,7 @@ class OnBoardingScreen extends StatelessWidget {
               LogoAndText(),
               DoctorImageAndText(),
               Text('Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.',style: TextStyles.font13Grey400W,textAlign: TextAlign.center,),
-              OnboardingBottom(),
+              const OnboardingBottom(text: 'Get Started',),
             ],
           ),
         ),
